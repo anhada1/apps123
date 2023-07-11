@@ -16,6 +16,7 @@ def main():
 
     # Upload the file
     pdf = st.file_uploader("Upload your PDF", type=["pdf"])
+    open_api_key = "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"
 
     # Extract text from the uploaded file
     if pdf is not None:
